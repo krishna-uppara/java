@@ -10,9 +10,21 @@ public class ConstructorCount {
 	  
 	public static void main(String args[]){  
 	//Creating objects  
+	
+		
 		ConstructorCount c1=new ConstructorCount();  
 		ConstructorCount c2=new ConstructorCount();  
 		ConstructorCount c3=new ConstructorCount();  
+		ConstructorCount [] obj = new ConstructorCount[10];
+		for(int i=11; i<20 ; i++)
+			
+		{
+			
+		}
+		
+		
+		
+		
 	}  
 	
 }
