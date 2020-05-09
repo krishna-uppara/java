@@ -31,7 +31,11 @@ public class occurance {
         System.out.println("Input Array : "+Arrays.toString(inputArray));
          
         System.out.println("Element Count : "+elementCountMap);
-
+		elementCountMap.put(1, 1);
+		elementCountMap.put(2, 2);
+		elementCountMap.put(1, 3);
+		System.out.println(elementCountMap.size());
+		System.out.println(elementCountMap);
 	}
 
 }

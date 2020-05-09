@@ -34,7 +34,8 @@ public class Listtoarray
         System.out.println("convert list to Array");
      // convert list to Array
         String []er  = new String[arr2.size()];
-        arr2.toArray(er);
+        String abc [] =arr2.toArray(er);
+        System.out.println(abc);
         System.out.println(er);
         
         
